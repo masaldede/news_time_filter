@@ -10,25 +10,6 @@ A Python script to search for recent Google News results within a specified time
 - Handles both hourly and daily time filters automatically
 - Anti-scraping measures bypass
 
-## Requirements
-
-```bash
-pip install requests beautifulsoup4
-```
-
-## Usage
-
-1. Run the script:
-```bash
-python google_results_checker.py
-```
-
-2. Enter the name/company you want to search for
-
-3. Enter the number of hours to look back (e.g., 24 for last 24 hours)
-
-4. View the results
-
 ## Example
 
 ```
@@ -44,13 +25,6 @@ Found 8 results from the last 48 hours:
 2. Elon Musk Announces New Tesla Model
    https://example.com/new-tesla-model
 ```
-
-## How It Works
-
-- Uses Google News search with time-based filters (`qdr:h` for hours, `qdr:d` for days)
-- Scrapes search results using BeautifulSoup
-- Handles different Google result page layouts
-- Filters out duplicate results
 
 ## Limitations
 
